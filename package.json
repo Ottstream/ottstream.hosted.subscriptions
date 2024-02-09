@@ -1,0 +1,26 @@
+{
+  "name": "ottstream.hosted.subscriptions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hosted.js",
+  "scripts": {
+    "dev": "nodemon hosted.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.0.0",
+    "mongoose": "^6.0.8",
+    "mongoose-aggregate-paginate-v2": "^1.0.5",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-sequence": "^5.3.0",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.0.3",
+    "ottstream.dataaccess": "^1.1.5",
+    "ottstream.service": "^1.0.4",
+    "ottstream.services.config": "^1.0.4"
+  }
+}
